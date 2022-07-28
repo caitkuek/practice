@@ -4,6 +4,7 @@ arrSheep = [ true, true, true, false, true, false ]
 
 function countSheep(arrSheep) {
     let counter = 0;
+    // for loop to run through if there is a sheep in each position
     for (let i = 0; i < arrSheep.length; i++) {
         if (arrSheep[i] === true) {
             counter += 1

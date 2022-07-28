@@ -6,5 +6,4 @@ const str = 'hello i am a string';
 // + to join the rest of the string starting from 'e' (slice)
 const str2 = str.charAt(0).toUpperCase() + str.slice(1)
 
-
 console.log(str2)
